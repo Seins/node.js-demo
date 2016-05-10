@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  header#header.header
+    h2= title
+  article.content#content
+    aside#nav.nav
+      p#nav-title.nav-title= title
+      ul#nav-list.nav-list
+        li Navigation
+    section#main.main
+      p Welcome to #{title}
+      img(src=data).icon
+   span.clear

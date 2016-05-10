@@ -1,0 +1,57 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+ul,li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.content{
+  max-width: 640px;
+  display: block;
+  margin: 0 auto;
+  background: #efefef;
+}
+.nav,.main{
+  position: relative;
+  marign:0;
+  padding: 0;
+  float: left;
+  height:580px;
+  overflow: auto;
+}
+.nav{
+  width: 30%;
+  background: #cccccc;
+  text-indent: 0.5em;
+}
+.nav .nav-list li{
+  border-bottom: 1px solid #ffffff;
+  padding: 3px 0 2px 0;
+  text-align: center;
+  font: 16px bold;
+  color: #ffffff;
+  font-weight: 800;
+}
+.main{
+  width: 70%;
+  background: #efefef;
+}
+.clear{
+  clear: both;
+  display: block;
+}
+.icon{
+  width: 40%;
+}
